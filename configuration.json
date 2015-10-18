@@ -1,0 +1,8 @@
+{
+  "API_BASE_URL": {
+    "PRO": "",
+    "PRE": "",
+    "DEV": ""
+  },
+  "DATE_FORMAT": "MMM DD, YYYY"
+}

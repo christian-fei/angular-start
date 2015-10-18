@@ -1,0 +1,16 @@
+var config = require('../config')
+var constants = require('../../configuration.json')
+var gulp = require('gulp')
+  , jade = require('gulp-jade')
+  , connect = require('gulp-connect')
+  , replace = require('gulp-replace')
+  , errorLog = require('../errorLog')
+
+gulp.task('jade', function(){
+  gulp.src(config.FILES.jade)
+    .pipe(jade())
+    .pipe(replace('{BUILD}', config.BUILD))
+    .on('error', errorLog('jade'))
+    .pipe(gulp.dest('build/'))
+    .pipe(connect.reload())
+})
