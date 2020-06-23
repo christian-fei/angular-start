@@ -51,7 +51,7 @@
     "gulp-util": "3.0.6",
     "install": "0.1.8",
     "jade": "1.11.0",
-    "jquery": "^2.1.4",
+    "jquery": "^3.5.1",
     "karma": "0.12.37",
     "karma-browserify": "4.3.0",
     "karma-chai": "^0.1.0",
