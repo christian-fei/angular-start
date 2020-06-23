@@ -17,7 +17,7 @@
     ]
   },
   "dependencies": {
-    "angular": "1.4.4",
+    "angular": "1.8.0",
     "angular-bootstrap": "0.12.2",
     "angular-ui-bootstrap": "0.13.4",
     "angular-ui-router": "0.2.15",
